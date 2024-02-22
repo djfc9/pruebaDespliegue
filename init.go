@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-    http.HandleFunc("/", ExampleHandler)
+    http.HandleFunc("/prueba", ExampleHandler)
 
     log.Println("** Service Started on Port 8080 **")
     err := http.ListenAndServe(":8080", nil);
